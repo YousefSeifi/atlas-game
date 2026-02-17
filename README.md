@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎮 GameAtlas
 
-## Getting Started
+A modern game discovery platform built with **Next.js 16**, **Tailwind CSS**, and the RAWG Game API.  
+GameAtlas allows users to browse, filter, search, and explore detailed information about video games using a clean and professional UI.
 
-First, run the development server:
+---
+
+## 📂 Project Structure, Installation & Setup, Features, Future Improvements, Author & License
 
 ```bash
+# -------------------------------
+# Project Structure
+# -------------------------------
+game-atlas/
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   ├── page.jsx
+│   │   └── games/
+│   │        └── [slug]/
+│   │             └── page.jsx
+│   ├── components/
+│   │   ├── layout/
+│   │   │    ├── GameCard.jsx
+│   │   │    ├── Filters.jsx
+│   │   │    └── Hero.jsx
+│   │   └── ui/
+│   │        ├── Header.jsx
+│   │        └── Footer.jsx
+│   └── lib/
+│       └── api.js
+├── tailwind.config.js
+├── next.config.js
+├── package.json
+└── globals.css
+
+# -------------------------------
+# Installation & Running
+# -------------------------------
+git clone https://github.com/your-username/game-atlas.git
+cd game-atlas
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Open in browser: http://localhost:3000
+
+# -------------------------------
+# Environment Variables
+# -------------------------------
+# Create a .env.local file in the root
+NEXT_PUBLIC_RAWG_API_KEY=your_api_key_here
+# Get API key from: https://api.rawg.io/docs/
+
+# ----
+# API Integration
+# -------------------------------
+# Fetches:
+# - Game lists
+# - Game details
+# - Filters (genres, platforms)
+# - Search results
+# API logic handled in: src/lib/api.js
+
+# -------------------------------
+# Features & Responsive Design
+# -------------------------------
+# - Desktop: Mega Menu Navigation
+# - Mobile: Hamburger + Accordion Menu
+# - Optimized Grid Layout
+# - Smooth Hover Animations
+# - Search games by name
+# - Filter by genres and platforms
+# - Sort by rating or release date
+# - Dynamic game detail pages
+# - Optimized images with Next.js <Image />
+# - Fast navigation using App Router
+
+# -------------------------------
+# Future Improvements
+# -------------------------------
+# - Skeleton loading states
+# - Framer Motion animations
+# - Dark/Light theme toggle
+# - Infinite scroll
+# - Server-side caching
+# - Unit testing (Jest + RTL)
+
+# -------------------------------
+# Author & License
+# -------------------------------
+# Developed by [Your Name]
+# Frontend Developer | Next.js Specialist
+# License: Educational & portfolio purposes
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

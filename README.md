@@ -14,6 +14,15 @@ Make sure your `NEXT_PUBLIC_RAWG_API_KEY` is valid and set in your `.env.local` 
 
 ## 📂 Project Structure, Installation & Setup, Features, Future Improvements, Author & License
 
+---
+
+## Live Demo
+
+Check the live version of this project deployed on Netlify:  
+[https://game-app-nextjs.netlify.app/](https://game-app-nextjs.netlify.app/)
+
+---
+
 ```bash
 # -------------------------------
 # Project Structure

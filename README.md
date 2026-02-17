@@ -5,6 +5,15 @@ GameAtlas allows users to browse, filter, search, and explore detailed informati
 
 ---
 
+## ⚠️ Note About RAWG API Access
+
+The RAWG API may be **restricted in some regions**, so if you encounter issues fetching data, you might need to use a **VPN or proxy** to access it.  
+Make sure your `NEXT_PUBLIC_RAWG_API_KEY` is valid and set in your `.env.local` file.
+
+---
+
+---
+
 ## 📂 Project Structure, Installation & Setup, Features, Future Improvements, Author & License
 
 ```bash

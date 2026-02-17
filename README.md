@@ -44,50 +44,45 @@ npm run dev
 # Open in browser: http://localhost:3000
 
 # -------------------------------
-# Environment Variables
+Environment Variables
 # -------------------------------
 # Create a .env.local file in the root
 NEXT_PUBLIC_RAWG_API_KEY=your_api_key_here
 # Get API key from: https://api.rawg.io/docs/
 
-# ----
+# -------------------------------
 # API Integration
 # -------------------------------
-# Fetches:
-# - Game lists
-# - Game details
-# - Filters (genres, platforms)
-# - Search results
-# API logic handled in: src/lib/api.js
+Fetches:
+Game lists
+Game details
+Filters (genres, platforms)
+Search results
+API logic handled in: src/lib/api.js
 
 # -------------------------------
 # Features & Responsive Design
 # -------------------------------
-# - Desktop: Mega Menu Navigation
-# - Mobile: Hamburger + Accordion Menu
-# - Optimized Grid Layout
-# - Smooth Hover Animations
-# - Search games by name
-# - Filter by genres and platforms
-# - Sort by rating or release date
-# - Dynamic game detail pages
-# - Optimized images with Next.js <Image />
-# - Fast navigation using App Router
+Desktop: Mega Menu Navigation
+Mobile: Hamburger + Accordion Menu
+Optimized Grid Layout
+Smooth Hover Animations
+Search games by name
+Filter by genres and platforms
+Sort by rating or release date
+Dynamic game detail pages
+Optimized images with Next.js <Image />
+Fast navigation using App Router
 
 # -------------------------------
 # Future Improvements
 # -------------------------------
-# - Skeleton loading states
-# - Framer Motion animations
-# - Dark/Light theme toggle
-# - Infinite scroll
-# - Server-side caching
-# - Unit testing (Jest + RTL)
-
+Skeleton loading states
+Framer Motion animations
 # -------------------------------
 # Author & License
 # -------------------------------
-# Developed by [Your Name]
-# Frontend Developer | Next.js Specialist
-# License: Educational & portfolio purposes
+Developed by ["Your Name"]
+Frontend Developer | Next.js Specialist
+License: Educational & portfolio purposes
 ```

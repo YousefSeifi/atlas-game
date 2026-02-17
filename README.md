@@ -12,8 +12,6 @@ Make sure your `NEXT_PUBLIC_RAWG_API_KEY` is valid and set in your `.env.local` 
 
 ---
 
----
-
 ## 📂 Project Structure, Installation & Setup, Features, Future Improvements, Author & License
 
 ```bash

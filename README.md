@@ -98,7 +98,7 @@ Framer Motion animations
 # -------------------------------
 # Author & License
 # -------------------------------
-Developed by ["Your Name"]
+Developed by ["Yousef Seifi"]
 Frontend Developer | Next.js Specialist
 License: Educational & portfolio purposes
 ```
